@@ -34,7 +34,7 @@ function SignIn() {
           Crie grupos para jogar seus games {`\n`}
           favoritos com seus amigos
         </SubTitle>
-        <ButtonIcon />
+        <ButtonIcon title="Entrar com o Discord" />
       </Wrapper>
     </Container>
   );

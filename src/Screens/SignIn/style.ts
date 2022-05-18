@@ -26,6 +26,7 @@ export const Image = styled.Image`
 
 export const Wrapper = styled.View`
   margin-top: -40px;
+  padding: 50px;
 `;
 
 export const Title = styled.Text`

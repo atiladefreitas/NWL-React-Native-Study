@@ -12,6 +12,7 @@ import {
   SubTitle,
   StatusBar,
 } from "./style";
+import { ButtonIcon } from "../../Components/ButtonIcon";
 
 function SignIn() {
   const [text, setText] = useState("Freitas");
@@ -33,6 +34,7 @@ function SignIn() {
           Crie grupos para jogar seus games {`\n`}
           favoritos com seus amigos
         </SubTitle>
+        <ButtonIcon />
       </Wrapper>
     </Container>
   );

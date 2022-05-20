@@ -10,7 +10,6 @@ import {
   Wrapper,
   Title,
   SubTitle,
-  StatusBar,
 } from "./style";
 import { ButtonIcon } from "../../Components/ButtonIcon";
 
@@ -19,11 +18,6 @@ function SignIn() {
 
   return (
     <Container>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
       <Image source={IllustrationImg} resizeMode="stretch" />
 
       <Wrapper>

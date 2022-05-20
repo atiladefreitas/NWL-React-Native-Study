@@ -11,7 +11,7 @@ import {
 import AppLoading from "expo-app-loading";
 import { StatusBar } from "react-native";
 
-import { SignIn } from "./src/Screens/SignIn";
+import { Home } from "./src/Screens/Home";
 import { Background } from "./src/Components/Background";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
         backgroundColor="transparent"
         translucent
       />
-      <SignIn />
+      <Home />
     </Background>
   );
 }

@@ -10,8 +10,8 @@ export const Container = styled.View`
   align-items: center;
 `;
 export const IconWrapper = styled.View`
-  width: 56;
-  height: 56;
+  width: 56px;
+  height: 56px;
   justify-content: center;
   align-items: center;
   border-right-width: 1px;

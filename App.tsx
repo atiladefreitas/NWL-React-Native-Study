@@ -1,40 +1,36 @@
 import React from "react";
 import { useFonts } from "expo-font";
+import { Inter_400Regular, Inter_500Medium } from "@expo-google-fonts/inter";
 import {
-  Manjari_400Regular,
-  Manjari_700Bold,
-} from "@expo-google-fonts/manjari";
-import {
-  Raleway_500Medium,
-  Raleway_400Regular,
-} from "@expo-google-fonts/raleway";
-import AppLoading from "expo-app-loading";
+  Rajdhani_500Medium,
+  Rajdhani_700Bold,
+} from "@expo-google-fonts/rajdhani";
+/* import AppLoading from "expo-app-loading"; */
 import { StatusBar } from "react-native";
 
-import { Home } from "./src/Screens/Home";
-import { Background } from "./src/Components/Background";
+import { Routes } from "./src/Routes";
 
 function App() {
   const [fontsLoaded] = useFonts({
-    Manjari_400Regular,
-    Manjari_700Bold,
-    Raleway_500Medium,
-    Raleway_400Regular,
+    Inter_400Regular,
+    Inter_500Medium,
+    Rajdhani_500Medium,
+    Rajdhani_700Bold,
   });
 
-  if (!fontsLoaded) {
+  /*   if (!fontsLoaded) {
     return <AppLoading />;
-  }
+  } */
 
   return (
-    <Background>
+    <>
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
       />
-      <Home />
-    </Background>
+      <Routes />
+    </>
   );
 }
 

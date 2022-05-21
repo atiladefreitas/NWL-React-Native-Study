@@ -8,8 +8,8 @@ function Profile() {
       <Avatar urlImage="https://github.com/atiladefreitas.png" />
       <Wrapper>
         <User>
-          <Greeting> Olé</Greeting>
-          <UserName>Átila</UserName>
+          <Greeting>Olá,</Greeting>
+          <UserName> Átila</UserName>
         </User>
         <Message>Hoje é dia de vitória</Message>
       </Wrapper>
